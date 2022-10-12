@@ -1,0 +1,26 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "**This is a simple HTML list of To Do tasks. This simple web page is built using webpack and served by a webpack dev server.**",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tashisrael/LeaderBoard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tashisrael/LeaderBoard/issues"
+  },
+  "homepage": "https://github.com/tashisrael/LeaderBoard#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
