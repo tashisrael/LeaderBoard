@@ -1,6 +1,5 @@
 import './style.css';
 import {
-  displaySection,
   addBtn,
 } from './Modules/itemDeclaration.js';
 import { Score } from './Modules/scores.js';
@@ -12,4 +11,3 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 addBtn.addEventListener('click', availableScore.addScore);
-

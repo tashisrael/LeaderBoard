@@ -1,3 +1,4 @@
+"use strict";
 /*
  * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
  * This devtool is neither made for production nor for readable output files.
@@ -6,9 +7,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-/******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ({
+(self["webpackChunkleaderboard"] = self["webpackChunkleaderboard"] || []).push([["index"],{
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
 /*!*************************************************************!*\
@@ -16,7 +15,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\r\\n  padding: 0;\\r\\n}\\r\\n\\r\\n#list {\\r\\n  border: 1px solid black;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://leaderboard/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\r\\n  padding: 0;\\r\\n  text-align: left;\\r\\n  max-width: 600px;\\r\\n  margin: auto;\\r\\n}\\r\\n\\r\\n#list {\\r\\n  border: 1px solid black;\\r\\n}\\r\\n\\r\\n.main-section {\\r\\n  display: flex;\\r\\n  align-items: center;\\r\\n  justify-content: center;\\r\\n}\\r\\n\\r\\n.scores-section {\\r\\n  display: inline-block;\\r\\n  vertical-align: top;\\r\\n}\\r\\n\\r\\n.heading {\\r\\n  display: flex;\\r\\n  gap: 1rem;\\r\\n}\\r\\n\\r\\n#btn-refresh {\\r\\n  display: flex;\\r\\n  align-items: center;\\r\\n  justify-content: center;\\r\\n}\\r\\n\\r\\n.leader-board {\\r\\n  display: inline-block;\\r\\n  vertical-align: top;\\r\\n  margin: auto;\\r\\n}\\r\\n\\r\\n.availableScore {\\r\\n  display: flex;\\r\\n  justify-content: space-between;\\r\\n  gap: 8.5rem;\\r\\n  align-items: center;\\r\\n  padding: 0 15px;\\r\\n  margin: 0;\\r\\n}\\r\\n\\r\\n.availableScore:nth-child(even) {\\r\\n  background-color: #eee;\\r\\n}\\r\\n\\r\\n.availableScore:nth-child(odd) {\\r\\n  background-color: #fff;\\r\\n}\\r\\n\\r\\nbutton {\\r\\n  box-shadow: 2px 2px black;\\r\\n}\\r\\n\\r\\n#btn {\\r\\n  float: right;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://leaderboard/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,7 +115,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"addBtn\": () => (/* binding */ addBtn),\n/* harmony export */   \"displaySection\": () => (/* binding */ displaySection),\n/* harmony export */   \"name\": () => (/* binding */ name),\n/* harmony export */   \"score\": () => (/* binding */ score)\n/* harmony export */ });\nconst displaySection = document.querySelector('.list');\r\nconst name = document.getElementById('name');\r\nconst score = document.getElementById('score');\r\nconst addBtn = document.getElementById('btn');\r\n\r\n\n\n//# sourceURL=webpack://leaderboard/./src/Modules/itemDeclaration.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"addBtn\": () => (/* binding */ addBtn),\n/* harmony export */   \"displaySection\": () => (/* binding */ displaySection),\n/* harmony export */   \"name\": () => (/* binding */ name),\n/* harmony export */   \"score\": () => (/* binding */ score)\n/* harmony export */ });\nconst displaySection = document.querySelector('.list');\nconst name = document.getElementById('name');\nconst score = document.getElementById('score');\nconst addBtn = document.getElementById('btn');\n\n\n\n//# sourceURL=webpack://leaderboard/./src/Modules/itemDeclaration.js?");
 
 /***/ }),
 
@@ -126,7 +125,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Score\": () => (/* binding */ Score),\n/* harmony export */   \"displaySection\": () => (/* reexport safe */ _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.displaySection),\n/* harmony export */   \"name\": () => (/* reexport safe */ _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.name),\n/* harmony export */   \"score\": () => (/* reexport safe */ _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.score)\n/* harmony export */ });\n/* harmony import */ var _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./itemDeclaration.js */ \"./src/Modules/itemDeclaration.js\");\n\r\n\r\n\r\n\r\nclass Score {\r\n  availableScores;\r\n\r\n  constructor() {\r\n    this.getFromLocalStorage();\r\n  }\r\n\r\n  saveToLocalStorage = (addedScores) => localStorage.setItem('availableScores', JSON.stringify(addedScores));\r\n\r\n  getFromLocalStorage = () => {\r\n    this.availableScores = JSON.parse(localStorage.getItem('availableScores')) ?? [];\r\n  };\r\n\r\n  displayItem = () => {\r\n    this.getFromLocalStorage();\r\n    _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.displaySection.innerHTML = '';\r\n    this.availableScores.forEach((availableScore, i) => {\r\n      _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.displaySection.innerHTML += `<div class=\"availableScore\">\r\n        <p>${availableScore.name} : ${availableScore.score}</p>\r\n        </div>`;\r\n    });\r\n  };\r\n\r\n  addScore = (e) => {\r\n    if (_itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.name.value === '' || _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.score.value === '') {\r\n      e.preventDefault();\r\n    } else {\r\n      const addedScore = {\r\n        name: _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.name.value,\r\n        score: _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.score.value,\r\n      };\r\n      this.availableScores.push(addedScore);\r\n      this.clear();\r\n      this.saveToLocalStorage(this.availableScores);\r\n      this.displayItem();\r\n    }\r\n  };\r\n\r\nclear = () => {\r\n  _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.name.value = '';\r\n  _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.score.value = '';\r\n};\r\n}\r\n\n\n//# sourceURL=webpack://leaderboard/./src/Modules/scores.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Score\": () => (/* binding */ Score),\n/* harmony export */   \"displaySection\": () => (/* reexport safe */ _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.displaySection),\n/* harmony export */   \"name\": () => (/* reexport safe */ _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.name),\n/* harmony export */   \"score\": () => (/* reexport safe */ _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.score)\n/* harmony export */ });\n/* harmony import */ var _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./itemDeclaration.js */ \"./src/Modules/itemDeclaration.js\");\n\n\n\n\nclass Score {\n  availableScores;\n\n  constructor() {\n    this.getFromLocalStorage();\n  }\n\n  saveToLocalStorage = (addedScores) => localStorage.setItem('availableScores', JSON.stringify(addedScores));\n\n  getFromLocalStorage = () => {\n    this.availableScores = JSON.parse(localStorage.getItem('availableScores')) ?? [];\n  };\n\n  displayItem = () => {\n    this.getFromLocalStorage();\n    _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.displaySection.innerHTML = '';\n    this.availableScores.forEach((availableScore) => {\n      _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.displaySection.innerHTML += `<div class=\"availableScore\">\n        <p>${availableScore.name} : ${availableScore.score}</p>\n        </div>`;\n    });\n  };\n\n  addScore = (e) => {\n    if (_itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.name.value === '' || _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.score.value === '') {\n      e.preventDefault();\n    } else {\n      const addedScore = {\n        name: _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.name.value,\n        score: _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.score.value,\n      };\n      this.availableScores.push(addedScore);\n      this.clear();\n      this.saveToLocalStorage(this.availableScores);\n      this.displayItem();\n    }\n  };\n\nclear = () => {\n  _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.name.value = '';\n  _itemDeclaration_js__WEBPACK_IMPORTED_MODULE_0__.score.value = '';\n};\n}\n\n\n//# sourceURL=webpack://leaderboard/./src/Modules/scores.js?");
 
 /***/ }),
 
@@ -136,88 +135,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _Modules_itemDeclaration_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Modules/itemDeclaration.js */ \"./src/Modules/itemDeclaration.js\");\n/* harmony import */ var _Modules_scores_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Modules/scores.js */ \"./src/Modules/scores.js\");\n\r\n\r\n\r\n\r\nconst availableScore = new _Modules_scores_js__WEBPACK_IMPORTED_MODULE_2__.Score();\r\n\r\ndocument.addEventListener('DOMContentLoaded', () => {\r\n  availableScore.displayItem();\r\n});\r\n\r\n_Modules_itemDeclaration_js__WEBPACK_IMPORTED_MODULE_1__.addBtn.addEventListener('click', availableScore.addScore);\r\n\r\n\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _Modules_itemDeclaration_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Modules/itemDeclaration.js */ \"./src/Modules/itemDeclaration.js\");\n/* harmony import */ var _Modules_scores_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Modules/scores.js */ \"./src/Modules/scores.js\");\n\n\n\n\nconst availableScore = new _Modules_scores_js__WEBPACK_IMPORTED_MODULE_2__.Score();\n\ndocument.addEventListener('DOMContentLoaded', () => {\n  availableScore.displayItem();\n});\n\n_Modules_itemDeclaration_js__WEBPACK_IMPORTED_MODULE_1__.addBtn.addEventListener('click', availableScore.addScore);\n\n\n//# sourceURL=webpack://leaderboard/./src/index.js?");
 
 /***/ })
 
-/******/ 	});
-/************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			id: moduleId,
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/nonce */
-/******/ 	(() => {
-/******/ 		__webpack_require__.nc = undefined;
-/******/ 	})();
-/******/ 	
-/************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
-/******/ 	
-/******/ })()
-;
+},
+/******/ __webpack_require__ => { // webpackRuntimeModules
+/******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+/******/ var __webpack_exports__ = (__webpack_exec__("./src/index.js"));
+/******/ }
+]);

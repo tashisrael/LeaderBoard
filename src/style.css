@@ -16,7 +16,7 @@ body {
 }
 
 .scores-section {
-  display:inline-block;
+  display: inline-block;
   vertical-align: top;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .leader-board {
-  display:inline-block;
+  display: inline-block;
   vertical-align: top;
   margin: auto;
 }

@@ -26,7 +26,7 @@ export class Score {
   displayItem = () => {
     this.getFromLocalStorage();
     displaySection.innerHTML = '';
-    this.availableScores.forEach((availableScore, i) => {
+    this.availableScores.forEach((availableScore) => {
       displaySection.innerHTML += `<div class="availableScore">
         <p>${availableScore.name} : ${availableScore.score}</p>
         </div>`;
