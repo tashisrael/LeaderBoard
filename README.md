@@ -1,6 +1,6 @@
-## LeaderBoard 
+## Leaderboard 
 
-**This is a simple HTML list of To Do tasks. This simple web page is built using webpack and served by a webpack dev server.**
+**This is a simple HTML Leaderbaord project. This simple web page is built using webpack and served by a webpack dev server.**
 
 ## Built With
 

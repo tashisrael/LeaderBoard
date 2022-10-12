@@ -1,3 +1,4 @@
+import './style.css';
 import {
   displaySection,
   addBtn,
