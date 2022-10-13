@@ -1,6 +1,6 @@
 import './style.css';
-import AddScore from './Modules/addScores';
-import fetchScores from './Modules/fetchScores';
+import AddScore from './Modules/addScores.js';
+import fetchScores from './Modules/fetchScores.js';
 
 const form = document.forms[0];
 const scoreList = document.querySelector('.list');

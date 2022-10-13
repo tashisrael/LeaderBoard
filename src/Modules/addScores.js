@@ -12,8 +12,9 @@ const AddScore = async (user, message) => {
   });
 
   const result = await response.json();
-  message.innerHTML += `<strong>Success!</strong>`;
+  message.innerHTML += '<strong>Success!</strong>';
   message.classList.add('show');
+  result.result();
 };
 
 export default AddScore;
